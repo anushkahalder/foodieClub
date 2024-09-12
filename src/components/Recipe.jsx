@@ -219,7 +219,7 @@ const Recipe = () => {
               <p className='foodName'>{foods.name}</p>
               <p className='foodDescription'>{foods.description}</p>
 
-              <Link to={`/details/${foods.id}`} state={{ Food: foods.name, CookingProcess: foods.CookingProcess }} className='DetailLink'>
+              <Link to={`/foodieClub/details/${foods.id}`} state={{ Food: foods.name, CookingProcess: foods.CookingProcess }} className='DetailLink'>
                 <button className='viewDetails'>View Details</button>
               </Link>
               {/* <button className='viewDetails'>View Details</button> */}
